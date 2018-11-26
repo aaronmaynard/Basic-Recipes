@@ -1,0 +1,8 @@
+name: Basic-Recipies
+api-version: 1.13
+version: 0.01
+authors: [Aaron Maynard]
+main: com.aaronmaynard.Basic_Recipies.Main
+prefix: Basic-Recipies
+description: Add basic recipies for more diversity and functionality to your Bukkit Server.
+website: http://development.aaronmaynard.com/
