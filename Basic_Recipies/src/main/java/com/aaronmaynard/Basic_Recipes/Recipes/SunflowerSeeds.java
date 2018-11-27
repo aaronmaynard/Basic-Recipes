@@ -1,4 +1,4 @@
-package com.aaronmaynard.Basic_Recipies.Recipies;
+package com.aaronmaynard.Basic_Recipes.Recipes;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -9,14 +9,15 @@ import org.bukkit.inventory.ShapelessRecipe;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.Plugin;
 
-import java.util.Iterator;
+import com.aaronmaynard.Basic_Recipes.Main;
 
-import com.aaronmaynard.Basic_Recipies.Main;
+import java.util.Iterator;
 
 public class SunflowerSeeds {
 
 	private Plugin plugin = Main.getPlugin(Main.class);
 
+	@SuppressWarnings("deprecation")
 	public void customRecipe() {
 
 		Iterator<Recipe> it = Bukkit.getServer().recipeIterator();

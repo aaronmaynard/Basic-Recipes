@@ -1,4 +1,4 @@
-package com.aaronmaynard.Basic_Recipies;
+package com.aaronmaynard.Basic_Recipes;
 
 import java.util.Random;
 
@@ -13,14 +13,15 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 
 public class BListener implements Listener {
-	private Main plugin;
 	Random random = new Random();
 	int eatCounter = 0;
 
 	public BListener(Main instance) {
-		plugin = instance;
 	}
 
+	/*
+	 * SUNFLOWERSEEDS
+	 */
 	@EventHandler
 	public void onInteract(PlayerInteractEvent e) {
 		// Event called when a player interacts with something, AKA right click or left
