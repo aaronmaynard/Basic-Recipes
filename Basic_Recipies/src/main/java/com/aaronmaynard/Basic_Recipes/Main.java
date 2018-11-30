@@ -44,6 +44,6 @@ public class Main extends JavaPlugin {
 
 	public void onDisable() {
 		getServer().getConsoleSender().sendMessage(ChatColor.RED + "Basic_Recipes has been Disabled");
-		}
+	}
 
 }
