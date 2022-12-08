@@ -40,6 +40,9 @@ public class Main extends JavaPlugin {
 		
 		HorseArmor ha = new HorseArmor();
 		ha.customRecipe();
+		
+		CarrotCake cc = new CarrotCake();
+		cc.customRecipe();
 	}
 
 	public void onDisable() {
